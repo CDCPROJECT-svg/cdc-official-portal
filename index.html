@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDC Official Portal</title>
     <style>
+  @keyframes glowBox { 0%, 100% { border-color: #FFD700; box-shadow: 0 0 5px #FFD700; } 50% { border-color: #ffffff; box-shadow: 0 0 20px #FFD700; } }
+  .phase1-effect { animation: fadeIn 3s ease-in, glowBox 3s infinite; }
         body { background-color: #0f172a; color: white; font-family: sans-serif; text-align: center; padding: 20px; line-height: 1.6; }
         .welcome { font-weight: bold; color: #FFD700; font-size: 1.2rem; margin-bottom: 20px; }
         .rainbow { font-weight: bold; background: linear-gradient(90deg, red, orange, yellow, green, blue, violet); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 5px rgba(255,255,255,0.3)); }
